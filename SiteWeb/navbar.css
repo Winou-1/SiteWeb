@@ -1,0 +1,238 @@
+/* Styles globaux */
+*{
+    font-family: "Andale Mono", monospace;
+    margin: 0;
+}
+
+/* Classes utilitaires */
+.gradient-animated {
+    background: linear-gradient(45deg, #010b00, #52754d, #194552, #355188);
+    background-size: 300% 300%;
+    animation: gradientMove 15s ease infinite;
+}
+
+
+@keyframes gradientMove {
+    0% {background-position: 0% 50%;}
+    50% {background-position: 100% 50%;}
+    100% {background-position: 0% 50%;}
+}
+
+/* Navbar styles */
+.navbar {
+    position: absolute;
+}
+
+a.navbar-brand {
+    font-size: 1.5em;
+    font-weight: bold;
+    letter-spacing: 3px;
+    color: #ffffff;
+}
+a.navbar-brand:hover {
+    color: #aaaaaa;
+    transform: scale(1.05);
+}
+
+.navbar-brand {
+    letter-spacing: 3px;
+    color: #ffffff;
+}
+
+.navbar-brand:hover {
+    color: #aaaaaa;
+    transform: scale(1.05);
+}
+
+.navbar .nav-link,
+.navbar-scroll .fa-bars {
+    color: #ffffff;
+}
+
+.navbar .nav-link:hover {
+    color: #aaaaaa;
+    transform: scale(1.05);
+}
+
+.navbar-scrolled {
+    background-color: #616161;
+}
+
+.navbar-scrolled .nav-link {
+    color: #000;
+}
+
+/* partie-1 */
+.partie-1 {
+    position: relative;
+    height: 600px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+    color: white;
+
+}
+
+.gradient-overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}
+
+
+.partie-1-content {
+    margin-top: 50px;
+    position: relative;
+    z-index: 2;
+    text-align: center;
+    padding: 20px;
+    max-width: 800px;
+}
+
+/* Play button */
+.play-button {
+    background-color: #ffffff;
+    color: #000;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+    transition: transform 0.2s;
+}
+
+.play-button:hover {
+    transform: scale(1.05);
+}
+
+/* partie-2 section */
+.partie-2 {
+    padding: 50px 20px;
+    background-color: #272727;
+    text-align: center;
+    color: white;
+}
+
+.partie-2-1 {
+    display: flex;
+    justify-content: space-around;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.partie-2-2 {
+    width: 45%;
+    padding: 20px;
+}
+
+
+/* Partie-3 section */
+.Partie-3 {
+    position: relative;
+    text-align: center;
+    overflow: hidden;
+    color: white;
+}
+
+.Partie-3 h2 {
+    margin: 50px 0 40px;
+}
+
+
+.foot{
+    background-color: #272727;
+    color: white;
+    text-align: center;
+    padding: 20px;
+}
+
+
+
+/* bouton */
+.degrade_total{
+    background: linear-gradient(45deg, #010b00, #52754d, #194552, #355188);
+    background-size: 300% 300%;
+    animation: gradientMove 15s ease infinite;
+}
+
+.couleur{
+    background-color: #0000002d;
+    color : #ffffff;}
+
+.game-actions {
+    display: flex;
+    width: 100%;
+    justify-content: center;
+}
+
+.action-block {
+    display: flex;
+    align-items: center;
+    margin: 30px ;
+    gap: 20px;
+}
+
+
+.bloque-1{
+    flex-direction: row-reverse;
+    justify-content: flex-start;
+    display: flex;
+    align-items: center;
+    margin: 30px ;
+    gap: 20px;
+}
+.bloque-2{
+    flex-direction: row-reverse;
+    justify-content: flex-start;
+    display: flex;
+    align-items: center;
+    margin: 30px ;
+    gap: 20px;
+}
+.bloque-3{
+    flex-direction: row-reverse;
+    justify-content: flex-start;
+    display: flex;
+    align-items: center;
+    margin: 30px ;
+    gap: 20px;
+}
+
+.action-button {
+    background-color: #00000044;
+    transition: transform 0.3s ease;
+    color: white;
+    padding: 20px 40px;
+    border-radius: 10px;
+    cursor: pointer;
+    min-width: 150px;
+    text-align: center;
+    align-items: left;
+
+}
+
+.action-text {
+    align-items: center;
+}
+
+.action-button.wide {
+    min-width: 250px;
+}
+
+.action-button:hover {
+    transform: scale(1.05);
+}
+
+
+/*.degrad1{
+    background-image: linear-gradient(180deg, #272727, #4400ff00);
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    padding: 5px;
+}*/
+
