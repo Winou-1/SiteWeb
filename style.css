@@ -4,7 +4,7 @@
     margin: 0;
   }
   
-  /* Classes utilitaires */
+  /* dégradé */
   .gradient-animated {
     background: linear-gradient(45deg, #010b00, #52754d, #194552, #355188);
     background-size: 300% 300%;
@@ -17,7 +17,7 @@
     100% {background-position: 0% 50%;}
   }
   
-  /* Navbar styles */
+  /* Navbar */
   .navbar {
     position: absolute;
   }
@@ -83,7 +83,7 @@
     max-width: 800px;
   }
   
-  /* Play button */
+  /* boutton */
   #play-button {
     background-color: #ffffff;
     color: #000;
@@ -99,7 +99,7 @@
     transform: scale(1.05);
   }
   
-  /* partie-2 section */
+  /* partie-2 */
   .partie-2 {
     padding: 50px 20px;
     background-color: #272727;
@@ -119,7 +119,7 @@
     padding: 20px;
   }
   
-  /* Partie-3 section */
+  /* Partie-3 */
   .Partie-3 {
     position: relative;
     text-align: center;
@@ -231,8 +231,8 @@
     overflow-x: hidden;
   }
   ::-webkit-scrollbar {
-    width: 0; /* Remove scrollbar space */
-    background: transparent; /* Optional: just make scrollbar invisible */
+    width: 0; 
+    background: transparent; 
   }
   /* ----------------------------Page---------------------------- */
   
