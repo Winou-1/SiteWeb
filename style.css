@@ -373,3 +373,47 @@
     opacity: 0;
   }
   
+  ion-icon {
+    font-size: 32px;
+  }
+  
+  .gridversion {
+    display: grid;
+    justify-items: center;
+    justify-content: center;
+    align-items: center;
+    grid-template-columns: auto auto 400px auto;
+    color: #ffffff;
+  }
+  
+  .gridtext {
+    display: grid;
+    justify-content: center;
+    max-height: 50px;
+    align-items: center;
+    grid-template-columns: 100px 625px;
+    color: #ffffff;
+  }
+  .gridcontent {
+    display: grid;
+    justify-content: center;
+    align-items: center;
+    padding-top: 25px;
+    grid-template-columns: auto 670px;
+    grid-gap: 8px;
+    color: #ffffff;
+  }
+  
+  .separator {
+    width: 720px;
+    margin: auto;
+    height: 3px;
+    background: #949694;
+    border-radius: 25px;
+    margin-top: 70px;
+    margin-bottom: 50px;
+  }
+  
+  .update_page {
+    background: linear-gradient(45deg, #52754d, #194552);
+  }
