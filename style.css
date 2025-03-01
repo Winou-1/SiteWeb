@@ -222,7 +222,7 @@
       padding: 5px;
   }*/
   
-  /* -------Luc------- */
+  /* -------             update              ------- */
   @import url("https://fonts.googleapis.com/css2?family=Oswald:wght@500&display=swap");
   @import url("https://fonts.googleapis.com/css2?family=Poppins:wght@100;300;400;800&display=swap");
   
@@ -234,148 +234,6 @@
     width: 0; 
     background: transparent; 
   }
-  /* ----------------------------Page---------------------------- */
-  
-  main {
-    position: relative;
-    height: 100vh;
-    width: 100vw;
-    overflow: hidden;
-  }
-  
-  .parallax {
-    pointer-events: none;
-    transition: none;
-  }
-  
-  .bg-img {
-    position: absolute;
-    width: 110%;
-    top: 60%;
-    left: 50.69%;
-    z-index: 3;
-  }
-  
-  .fog-6 {
-    position: absolute;
-    z-index: 4;
-    top: 95.09%;
-    left: 50.4%;
-    width: 129.3%;
-  }
-  
-  .text {
-    position: absolute;
-    z-index: 9;
-    top: 34%;
-    left: 50%;
-    text-align: center;
-    text-transform: uppercase;
-    color: #e9e8e8;
-    pointer-events: auto;
-  }
-  
-  .text h1 {
-    font-family: "Poppins", sans-serif;
-    font-weight: 800;
-    line-height: 1.2;
-    font-size: 6.8rem;
-  }
-  
-  .fog-3 {
-    position: absolute;
-    z-index: 13;
-    top: 63.58%;
-    left: 48.27%;
-    width: 107.63%;
-  }
-  
-  .mountain-3 {
-    position: absolute;
-    z-index: 15;
-    top: 61.35%;
-    left: 101.11%;
-    width: 32.22%;
-  }
-  
-  .fog-2 {
-    position: absolute;
-    z-index: 16;
-    top: 68.14%;
-    left: 48%;
-    width: 108.33%;
-  }
-  
-  .mountain-1 {
-    position: absolute;
-    z-index: 18;
-    top: 52%;
-    left: 8.27%;
-    width: 37.15%;
-  }
-  
-  .sun-rays {
-    position: absolute;
-    z-index: 19;
-    top: 0;
-    right: 0%;
-    width: 41.31%;
-    pointer-events: none;
-  }
-  
-  .black-shadow {
-    position: absolute;
-    z-index: 20;
-    bottom: 0;
-    right: 0%;
-    pointer-events: none;
-    width: 100%;
-  }
-  
-  .fog-1 {
-    position: absolute;
-    z-index: 21;
-    top: 59.26%;
-    left: 50.69%;
-    width: 111.8%;
-  }
-  
-  .button-theme {
-    background: linear-gradient(to bottom right, #94d283, #d5edce);
-    width: 175px;
-    height: 50px;
-    border: 0;
-    border-radius: 12px;
-    color: #ffffff;
-    cursor: pointer;
-    display: inline-block;
-    font-family: Oswald, sans-serif;
-    font-size: 22px;
-    font-weight: 500;
-    line-height: 2.5;
-    outline: transparent;
-    padding: 0 1.5rem;
-    text-align: center;
-    text-decoration: none;
-    transition: box-shadow 0.2s ease-in-out;
-    touch-action: manipulation;
-    white-space: nowrap;
-  }
-  
-  .button-theme:hover {
-    box-shadow: 0 0 0.25rem rgba(0, 0, 0, 0.5),
-      -0.125rem -0.125rem 1rem rgba(148, 210, 131, 0.5),
-      0.125rem 0.125rem 1rem rgba(213, 237, 206, 0.5);
-  }
-  
-  .page {
-    position: absolute;
-    opacity: 0;
-  }
-  
-  ion-icon {
-    font-size: 32px;
-  }
   
   .gridversion {
     display: grid;
@@ -385,7 +243,6 @@
     grid-template-columns: auto auto 400px auto;
     color: #ffffff;
   }
-  
   .gridtext {
     display: grid;
     justify-content: center;

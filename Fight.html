@@ -3,13 +3,125 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Click & Clash</title>
-    <link rel="stylesheet" href="styles.css">
+    <title>Fight - Click & Clash</title>
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css" rel="stylesheet">
+    <!-- Font Awesome -->
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Sigmar&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="fight.css">
 </head>
 <body>
     <header>
-        <h1>en construction</h1>
-        
+        <nav class="navbar navbar-expand-lg fixed-top navbar-scroll shadow-0"
+            style="background-color: rgba(39, 39, 39, 0.5); backdrop-filter: blur(10px);">
+            <div class="container">
+                <a class="navbar-brand" onclick='window.location.reload(false)' href="Index.html">Click & Clash</a>
+                <button class="navbar-toggler ps-0" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#navbarExample01" aria-controls="navbarExample01">
+                    <span class="d-flex justify-content-start align-items-center">
+                        <i class="fas fa-bars"></i>
+                    </span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarExample01">
+                    <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                        <li class="nav-item active">
+                            <a class="nav-link px-3" href="Clicker.html">Clicker </a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link px-3" href="Fight.html">Fight</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link px-3" href="about us.html">about us</a>
+                        </li>
+                        <li class="nav-item active">
+                            <a class="nav-link px-3" href="update.html">update</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link px-3" href=mailto:support.feldk@gmail.com>contact us</a>
+                        </li>
+                    </ul>
+                    <ul class="navbar-nav flex-row">
+                        <li class="nav-item">
+                            <a class="nav-link px-3" href="https://github.com/florianLITTOZMONNET/projetS2.git">
+                                <i class="fab fa-github"></i>
+                            </a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link ps-3" href="https://discord.gg/WsaTTcJ5t7">
+                                <i class="fab fa-discord"></i>
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
     </header>
+
+    <section class="fight-section">
+        <div class="overlay"></div>
+        <h2>Fight</h2>
+        <div class="fight-grid">
+            <!-- Carte 1 -->
+            <div class="fight-card">
+                <div class="fight-content">
+                    <h3>Mouvements Dynamiques</h3>
+                    <p>Dans **Click & Clash**, les combats sont rythmés par des mouvements fluides et variés.
+                        Vos personnages peuvent sauter, effectuer des wall jumps (rebonds sur les murs) et des
+                        dashs (déplacements rapides) pour esquiver les attaques ou surprendre vos adversaires.
+                        Ces mécaniques de mouvement ajoutent une dimension stratégique aux combats,
+                        vous permettant de contrôler parfaitement vos déplacements et de dominer l'arène.</p>
+                </div>
+                <div class="fight-image">
+                    <img src="img/mouvs.jpg" alt="Mouvements Dynamiques">
+                </div>
+            </div>
+            <!-- Carte 2 -->
+            <div class="fight-card reverse">
+                <div class="fight-content">
+                    <h3>Personnages Uniques</h3>
+                    <p>Chaque personnage de **Click & Clash** possède des capacités spéciales et un style de
+                        combat unique. Que vous préfériez un combattant rapide et agile, un tank résistant ou
+                        un mage puissant, il y a un personnage pour chaque style de jeu. Débloquez de nouveaux
+                        personnages en progressant dans le mode Clicker, puis utilisez leurs compétences pour
+                        écraser vos ennemis dans l'arène.</p>
+                </div>
+                <div class="fight-image">
+                    <img src="img/perso.jpg" alt="Personnages Uniques">
+                </div>
+            </div>
+            <!-- Carte 3 -->
+            <div class="fight-card">
+                <div class="fight-content">
+                    <h3>Maps Interactives</h3>
+                    <p>Les arènes de <strong>Click & Clash</strong> ne sont pas de simples décors : elles sont conçues pour
+                        dynamiser les combats. Avec des plateformes mobiles, des obstacles destructibles et des
+                        pièges stratégiques, chaque map offre de nouvelles opportunités tactiques.
+                        Adaptez-vous à l'environnement pour prendre l'avantage sur vos adversaires et
+                        remporter la victoire.</p>
+                </div>
+                <div class="fight-image">
+                    <img src="img/battlefield2.jpg" alt="Maps Interactives">
+                </div>
+            </div>
+            <!-- Carte 4 -->
+            <div class="fight-card reverse">
+                <div class="fight-content">
+                    <h3>Multijoueur</h3>
+                    <p>Affrontez vos amis ou des joueurs du monde entier dans des combats en ligne palpitants.
+                        Le mode multijoueur de **Click & Clash** vous permet de tester vos compétences contre
+                        des adversaires réels. Synchronisation fluide, matchmaking rapide et classements
+                        compétitifs : tout est conçu pour vous offrir une expérience multijoueur intense et
+                        immersive.</p>
+                </div>
+                <div class="fight-image">
+                    <img src="img/multi.jpeg" alt="Multijoueur">
+                </div>
+            </div>
+        </div>
+    </section>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js"></script>
 </body>
 </html>

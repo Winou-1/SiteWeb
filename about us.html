@@ -4,12 +4,104 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Click & Clash</title>
-    <link rel="stylesheet" href="styles.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css"rel="stylesheet"/>
+    <!-- Font Awesome -->
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css"rel="stylesheet"/>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Sigmar&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="about_us.css">
+    
 </head>
 <body>
     <header>
-        <h1>en construction</h1>
-        
-    </header>
+        <nav
+          class="navbar navbar-expand-lg fixed-top navbar-scroll shadow-0"
+          style="
+            background-color: rgba(39, 39, 39, 0.5);
+            backdrop-filter: blur(10px);
+          "
+        >
+          <div class="container">
+            <a class="navbar-brand" onclick='window.location.reload(false)' href="Index.html">Click & Clash</a>
+            <button
+              class="navbar-toggler ps-0"
+              type="button"
+              data-bs-toggle="collapse"
+              data-bs-target="#navbarExample01"
+              aria-controls="navbarExample01"
+            >
+              <span class="d-flex justify-content-start align-items-center">
+                <i class="fas fa-bars"></i>
+              </span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarExample01">
+              <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                <li class="nav-item active">
+                  <a class="nav-link px-3" href="Clicker.html">Clicker </a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link px-3" href="Fight.html">Fight</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link px-3" href="about us.html">about us</a>
+                </li>
+                <li class="nav-item active">
+                  <a class="nav-link px-3" href="update.html">update</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link px-3" href=mailto:support.feldk@gmail.com>contact us</a>
+                </li>
+              </ul>
+              <ul class="navbar-nav flex-row">
+                <li class="nav-item">
+                  <a class="nav-link px-3" href="https://github.com/florianLITTOZMONNET/projetS2.git">
+                    <i class="fab fa-github"></i>
+                  </a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link ps-3" href="https://discord.gg/WsaTTcJ5t7">
+                    <i class="fab fa-discord"></i>
+                  </a>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </nav>
+      </header>
+    <section class="présentation">
+        <div class="overlay"></div>
+        <h2>Qui nous sommes</h2>
+        <div class="cards">
+            <div class="card">
+                <img src="img/flo.png">
+                <h3>Florian LITTOZ-MONNET</h3>
+                <a href="Cv/florian_cv.pdf" download class="download">Mon CV</a>
+            </div>
+            <div class="card">
+                <img src="img/emeric.jpg" >
+                <h3>Emeric JOMAS</h3>
+                <a href="Cv/emeric_cv.pdf" download class="download">Mon CV</a>
+            </div>
+            <div class="card">
+                <img src="img/Luc.png" >
+                <h3>Luc DELDEM</h3>
+                <a href="Cv/luc_cv.pdf" download class="download">Mon CV</a>
+            </div>
+            <div class="card">
+                <img src="img/dim.jpg" >
+                <h3>Dimitri Attal</h3>
+                <a href="Cv/dimitri_cv.pdf" download class="download">Mon CV</a>
+            </div>
+            <div class="card">
+                <img src="img/kil.jpg">
+                <h3>Killian Arroudj–Harmand</h3>
+                <a href="Cv/killian_cv.pdf" download class="download">Mon CV</a>
+            </div>
+        </div>
+    </section>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js"></script>
 </body>
 </html>

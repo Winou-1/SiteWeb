@@ -1,0 +1,133 @@
+* {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+}
+
+.fight-section {
+    position: relative;
+    background: url('img/fight-background.jpg') center/cover no-repeat;
+    color: white;
+    text-align: center;
+    padding: 150px 20px;
+}
+
+.overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.5);
+    z-index: 1;
+}
+
+h2 {
+    font-family: "Sigmar", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    position: relative;
+    font-size: 80px;
+    margin-bottom: 50px;
+    z-index: 2;
+}
+
+.fight-grid {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+    z-index: 2;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.fight-card {
+    display: flex;
+    align-items: center;
+    background: rgba(49, 49, 49, 0.224);
+    border-radius: 10px;
+    padding: 20px;
+    backdrop-filter: blur(4px);
+    border: 2px solid gray;
+    transition: all 0.3s ease;
+}
+
+.fight-card.reverse {
+    flex-direction: row-reverse;
+}
+
+.fight-card:hover {
+    transform: scale(1.05);
+}
+
+.fight-content {
+    flex: 1;
+    padding: 20px;
+    text-align: left;
+}
+
+.fight-content h3 {
+    font-size: 30px;
+    margin-bottom: 10px;
+}
+
+.fight-content p {
+    font-size: 18px;
+    line-height: 1.6;
+}
+
+.fight-image {
+    flex: 1;
+    padding: 20px;
+}
+
+.fight-image img {
+    width: 100%;
+    border-radius: 10px;
+}
+
+
+
+
+  /* Navbar */
+  .navbar {
+    position: absolute;
+  }
+  
+  a.navbar-brand {
+    font-size: 1.5em;
+    font-weight: bold;
+    letter-spacing: 3px;
+    color: #ffffff;
+  }
+  a.navbar-brand:hover {
+    color: #aaaaaa;
+    transform: scale(1.05);
+    cursor: pointer;
+  }
+  
+  .navbar-brand {
+    letter-spacing: 3px;
+    color: #ffffff;
+  }
+  
+  .navbar-brand:hover {
+    color: #aaaaaa;
+    transform: scale(1.05);
+  }
+  
+  .navbar .nav-link,
+  .navbar-scroll .fa-bars {
+    color: #ffffff;
+  }
+  
+  .navbar .nav-link:hover {
+    color: #aaaaaa;
+    transform: scale(1.05);
+  }
