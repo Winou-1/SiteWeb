@@ -1,9 +1,9 @@
 * {
-    font-family: Arial, sans-serif;
-    margin: 0;
-    padding: 0;
+  font-family: "Andale Mono", monospace;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
-
 body {
     margin: 0;
     font-family: Arial, sans-serif;
@@ -11,10 +11,15 @@ body {
 
 .fight-section {
     position: relative;
-    background: url('img/fight-background.jpg') center/cover no-repeat;
+    background: url('img/fight-background.jpg') center/cover no-repeat fixed;
     color: white;
     text-align: center;
-    padding: 150px 20px;
+    min-height: 100vh;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 80px 20px; 
 }
 
 .overlay {
@@ -94,7 +99,6 @@ h2 {
 
 
 
-
   /* Navbar */
   .navbar {
     position: absolute;
@@ -131,3 +135,4 @@ h2 {
     color: #aaaaaa;
     transform: scale(1.05);
   }
+  

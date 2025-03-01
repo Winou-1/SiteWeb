@@ -1,6 +1,7 @@
-*{
-    font-family: "", monospace;
-    margin: 0;
+
+* {
+  font-family: "Andale Mono", monospace;
+  margin: 0;
 }
 body {
     margin: 0;
@@ -11,7 +12,14 @@ body {
     background: url('img/background2.png') center/cover no-repeat;
     color: white;
     text-align: center;
-    padding: 200px 20px;
+    min-height: 100vh;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    box-sizing: border-box; /* Ajouter ceci pour que padding ne dépasse pas */
+    padding: 20px; /* Simplifier le padding */
 }
 .overlay {
     position: absolute;

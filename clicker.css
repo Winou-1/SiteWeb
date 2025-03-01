@@ -1,8 +1,10 @@
-/* Styles globaux */
+
 * {
+    font-family: "Andale Mono", monospace;
     margin: 0;
     padding: 0;
-    box-sizing: border-box;}
+    box-sizing: border-box;
+  }
 
 body {
     background: linear-gradient(45deg, #010b00, #52754d, #194552, #355188);
@@ -163,3 +165,4 @@ body {
     color: #aaaaaa;
     transform: scale(1.05);
   }
+  
