@@ -28,6 +28,7 @@ body {
     align-items: center;
     text-align: center;
     overflow: hidden;
+    user-select: none;
 }
 
 .clicker-overlay {
@@ -38,11 +39,13 @@ body {
     height: 100%;
     background: rgba(0, 0, 0, 0.5);
     z-index: 1;
+    user-select: none;
 }
 
 .clicker-content {
     position: relative;
     z-index: 2;
+    user-select: none;
 }
 
 .clicker-content h1 {
@@ -50,21 +53,25 @@ body {
     font-size: 3rem;
     margin-bottom: 20px;
     text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.5);
+    user-select: none;
 }
 
 .clicker-content p {
     font-size: 1.2rem;
     margin-bottom: 40px;
+    user-select: none;
 }
 
 .clicker-counter {
     font-size: 2rem;
     margin-bottom: 30px;
+    user-select: none;
 }
 
 .clicker-counter span {
     display: block;
     font-family: 'Press Start 2P', cursive;
+    user-select: none;
 }
 
 .clicker-button {
@@ -77,11 +84,13 @@ body {
     cursor: pointer;
     transition: transform 0.2s, background-color 0.3s;
     box-shadow: 0 4px 6px rgba(0, 0, 0, 0.2);
+    user-select: none;
 }
 
 .clicker-button:hover {
     background-color: #355188;
     transform: scale(1.05);
+    user-select: none;
 }
 
 /* Améliorations */
