@@ -18,8 +18,8 @@ body {
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    box-sizing: border-box; /* Ajouter ceci pour que padding ne dépasse pas */
-    padding: 20px; /* Simplifier le padding */
+    box-sizing: border-box;
+    padding: 20px;
 }
 .overlay {
     position: absolute;
